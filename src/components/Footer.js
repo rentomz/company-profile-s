@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import LogoFooter from '../assets/image/logo-footer.png';
 
 export default function Footer() {
@@ -30,17 +30,17 @@ export default function Footer() {
           <div className="footer-right absolute z-30 bottom-16 md:top-20 md:right-32">
             <ul>
               <li className="my-4">
-                <a href="" className=" text-white">
+                <a href="/#who-we-are" className=" text-white">
                   Who We Are
                 </a>
               </li>
               <li className="my-4">
-                <a href="" className="py-2 text-white">
+                <a href="/#our-values" className="py-2 text-white">
                   Our Values
                 </a>
               </li>
               <li className="my-4">
-                <a href="" className="py-2 text-white">
+                <a href="/" className="py-2 text-white">
                   The Perks
                 </a>
               </li>

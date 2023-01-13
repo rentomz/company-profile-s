@@ -1,5 +1,5 @@
-import React ,{useState }from "react";
-import IC_Logo from '../assets/image/logo.png'
+import React, { useState } from "react";
+import IC_Logo from '../assets/image/logo.png';
 
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -65,13 +65,13 @@ export default function Header() {
                   <a href="/">Home</a>
                 </li>
                 <li className="text-gray-600 hover:text-blue-600">
-                  <a href="/">About Us</a>
+                  <a href="/#who-we-are">About Us</a>
                 </li>
                 <li className="text-gray-600 hover:text-blue-600">
-                  <a href="/">Our Values</a>
+                  <a href="/#our-values">Our Values</a>
                 </li>
                 <li className="text-gray-600 hover:text-blue-600">
-                  <a href="/">Out Speciality</a>
+                  <a href="/#our-speciality">Out Speciality</a>
                 </li>
               </ul>
             </div>
