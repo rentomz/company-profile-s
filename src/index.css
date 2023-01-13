@@ -39,6 +39,41 @@
 
 .text-hero {
   position: absolute;
-  bottom: 15%;
+  bottom: 12%;
   z-index: 100;
 }
+
+.btn-arrow {
+  bottom: -25px;
+  right: 45%;
+  z-index: 100;
+}
+
+
+
+.li-img {
+  background-image: url("./assets/image/img-rectangular.png");
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  background-position: 1% 20%;
+}
+
+.footer-clip-right {
+  clip-path: polygon(100% 100%, 0% 100%, 100% 70%);
+}
+
+.footer-clip-left {
+  clip-path: polygon(0 70%, 0% 100%, 100% 100%);
+}
+
+
+@media (min-width: 768px) {
+  .footer-clip-right {
+    clip-path: polygon(100% 100%, 0% 100%, 100% 47%);
+  }
+  
+  .footer-clip-left {
+    clip-path: polygon(0 47%, 0% 100%, 100% 100%);
+  }
+}
+
